@@ -1,0 +1,259 @@
+@import url("https://use.typekit.net/cjw5vct.css");
+
+
+/* Rest of your CSS styles */
+
+
+
+   
+  /*Name Button CSS*/
+ /* Position and align the logo button */
+ .logo-btn {
+  position: absolute;
+  top: 20px;
+  left: 700px;
+}
+
+
+/* Remove default anchor styling */
+.logo-btn,
+.logo-btn:hover,
+.logo-btn:focus,
+.logo-btn:active {
+  text-decoration: none;
+  outline: none;
+}
+
+/* Adjust button size if needed */
+.logo-btn img {
+  width: 90%;
+  height: 90%;
+}
+
+
+/*ResumeButton*/
+
+.logo-btn-1 {
+  position: absolute;
+  top: 35px;
+  left: 65%;
+}
+
+
+/* Remove default anchor styling */
+
+
+/* Adjust button size if needed */
+.logo-btn-1 img {
+  width: 110%;
+  height: 110%;
+}
+
+
+
+/*Contact Form Button*/
+.button-container {
+  position: absolute;
+  top: 35px; /* Adjust the value to move the button vertically */
+  left: 70%; /* Position the button horizontally in the middle */
+}
+
+.hover-button {
+  display: inline-block;
+  padding: 10px 10px;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-family: 'router', sans-serif; /* Replace 'Font Name' with the actual font name provided by Adobe Fonts */
+  /* Other styles for the button */
+  font-weight: 500;
+font-style: normal;
+}
+
+.hover-button:hover {
+  background-color: white;
+  color: black;
+}
+
+
+
+
+/* Background color and text color */
+body {
+  background-color: #000000; /* Off-white background color */
+}
+
+h1, p {
+  color: white;
+}
+
+
+.fade-in-container {
+  position: absolute;
+  top: 200px;
+  left: 63%;
+  
+}
+
+.fade-in-image {
+  opacity: 0;
+  max-width: 100%;
+  height: auto;
+  animation: fade-in 2s ease-in-out forwards;
+  width: 40%;
+  height: 40%;
+  border-radius: 50px;
+  border: 7px solid white; /* Add white border */
+
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+/* Global */
+.text-container {
+  background-color: #000000;
+  padding: 2px;
+}
+
+html{
+  min-height: 100%;
+  overflow: hidden;
+}
+body{
+  height: calc(100vh - 8em);
+  padding: 4em;
+  color: rgb(255, 255, 255);
+  font-family: "jetlab-variable",sans-serif;
+   font-variation-settings: 'THRU' 100, 'VERT' 50, 'HORZ' 0, 'LIFT' 0;
+  background-color: rgb(25,25,25);  
+}
+.line-1{
+    position: absolute;
+    top: 230px;
+    left: 30%;
+    width: 7em;
+    margin: 0 auto;
+    border-right: 2px solid rgb(255, 255, 255);
+    font-size: 300%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);    
+}
+
+/* Animation */
+.anim-typewriter{
+  animation: typewriter 3s steps(33) 1s 1 normal both,
+             blinkTextCursor 750ms steps(33) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 7.7em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgb(255, 255, 255);}
+  to{border-right-color: transparent;}
+}
+
+
+
+.fade-in-container2 {
+  position: absolute;
+  top: 250px;
+  left: 30%;
+  opacity: 0;
+  animation: fade-in 4s forwards;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.custom-font {
+  font-family: 'router', sans-serif; /* Replace 'Font Name' with the actual font name provided by Adobe Fonts */
+  /* Other styles for the button */
+  font-weight: 500;
+font-style: normal;
+font-size: 145%;
+
+}
+
+
+
+
+
+.text-container2 {
+  position: relative;
+}
+
+.line-2 {
+  position: absolute;
+  top: 700px;
+  left: 29%;
+  width: 17.5em;
+  margin: 0 auto;
+  border-right: 2px solid rgb(255, 255, 255);
+  font-size: 300%;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  transform: translateY(-50%);
+}
+
+.anim-typewriter2 {
+  animation: typewriter2 5s steps(50) 1s 1 normal both,
+             blinkTextCursor2 750ms steps(50) infinite normal;
+}
+
+@keyframes typewriter2 {
+  from {
+    width: 0;
+  }
+  to {
+    width: 18em;
+  }
+}
+
+@keyframes blinkTextCursor2 {
+  from {
+    border-right-color: rgb(255, 255, 255);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+
+
+.fade-in-container3 {
+  position: absolute;
+  top: 820px;
+  left: 30%;
+  opacity: 0;
+  animation: fade-in 4s forwards;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
