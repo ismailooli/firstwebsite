@@ -337,6 +337,7 @@ font-size: 145%;
 }
 
 
+/* Adjust logo button position for smaller screens */
 @media only screen and (max-width: 390px) {
   .logo-btn {
     top: 10px;
@@ -348,6 +349,62 @@ font-size: 145%;
 /* Adjust resume button position for smaller screens */
 @media only screen and (max-width: 390px) {
   .logo-btn-1 {
-    top: 35px
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust contact form button position for smaller screens */
+@media only screen and (max-width: 390px) {
+  .button-container {
+    top: 35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust fade-in image position for smaller screens */
+@media only screen and (max-width: 390px) {
+  .fade-in-container {
+    top: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust text container position for smaller screens */
+@media only screen and (max-width: 390px) {
+  .text-container {
+    top: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust fade-in container2 position for smaller screens */
+@media only screen and (max-width: 390px) {
+  .fade-in-container2 {
+    top: 350px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust text container2 position for smaller screens */
+@media only screen and (max-width: 390px) {
+  .text-container2 {
+    top: 700px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust fade-in container3 position for smaller screens */
+@media only screen and (max-width: 390px) {
+  .fade-in-container3 {
+    top: 900px;
+    left: 50%;
+    transform: translateX(-50%);
   }
 }
