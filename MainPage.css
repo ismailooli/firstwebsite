@@ -255,8 +255,10 @@ font-size: 145%;
   }
   to {
     opacity: 1;
+  }
+}
 
-
+/* Add your responsive styles here */
 
 /* Adjust logo button position for smaller screens */
 @media only screen and (max-width: 768px) {
