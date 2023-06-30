@@ -255,5 +255,85 @@ font-size: 145%;
   }
   to {
     opacity: 1;
+
+
+
+/* Adjust logo button position for smaller screens */
+@media only screen and (max-width: 768px) {
+  .logo-btn {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust resume button position for smaller screens */
+@media only screen and (max-width: 768px) {
+  .logo-btn-1 {
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust contact form button position for smaller screens */
+@media only screen and (max-width: 768px) {
+  .button-container {
+    top: 25px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust fading image position for smaller screens */
+@media only screen and (max-width: 768px) {
+  .fade-in-container {
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust text container position for smaller screens */
+@media only screen and (max-width: 768px) {
+  .text-container {
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust second text container position for smaller screens */
+@media only screen and (max-width: 768px) {
+  .text-container2 {
+    top: 550px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust third text container position for smaller screens */
+@media only screen and (max-width: 768px) {
+  .fade-in-container3 {
+    top: 690px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust font size for smaller screens */
+@media only screen and (max-width: 768px) {
+  .line-1 {
+    font-size: 200%;
+  }
+
+  .custom-font {
+    font-size: 110%;
+  }
+
+  .line-2 {
+    font-size: 200%;
+  }
+}
   }
 }
