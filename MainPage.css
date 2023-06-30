@@ -335,5 +335,19 @@ font-size: 145%;
     font-size: 200%;
   }
 }
+
+
+@media only screen and (max-width: 390px) {
+  .logo-btn {
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* Adjust resume button position for smaller screens */
+@media only screen and (max-width: 390px) {
+  .logo-btn-1 {
+    top: 35px
   }
 }
